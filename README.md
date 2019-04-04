@@ -41,7 +41,7 @@ Technlogy used during the development of this website is  HTML5, CSS, Boostrap4,
 
 Incase of any issues or feedback please add using any of below links.
 
-[Issues](https://github.com/modongo/fictional-restaurant/issues).
+* [Issues](https://github.com/modongo/fictional-restaurant/issues). To submit any issues.
 
 * [Tweet](https://twitter.com/mikodongo) for any other feedback.
 
