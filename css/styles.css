@@ -5,3 +5,17 @@
      background-image: url(../images/backgrounds/landing.jpg);
 
   }
+  #right1 {
+   background-color: #f15a29;
+   background-image: url(../images/drink1.jpg);
+   /* background-size: 100%; */
+   background-repeat: no-repeat;
+}
+#right2 {
+   background-color: #f15a29;
+   background-image: url(../images/drink2.jpg);
+   /* background-size: 100%; */
+   background-repeat: no-repeat;
+   padding: 0%;
+
+}
