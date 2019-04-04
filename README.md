@@ -1,5 +1,5 @@
 # Fictional Restaurant
-
+![](https://github.com/modongo/fictional-restaurant/images/core.jpg)
 #### This is a landing page for a fictional restaurant. It serves the purpose of making my coding skills in HTML, CSS, Javascript, Bootstrap and jQuery known to people around the world. This is currently the only version of the website created.
 
 #### By **Michael Odongo**
