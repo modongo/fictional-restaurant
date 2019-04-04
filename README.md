@@ -53,7 +53,7 @@ Incase of any issues or feedback please add using any of below links.
 
 ### live site link
 
-<https://modongo.github.io/fiction-restaurant/>
+<https://modongo.github.io/fictional-restaurant/>
 
 ### license
 
