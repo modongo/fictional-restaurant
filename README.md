@@ -24,7 +24,7 @@ This website is a landing page of a fictional restaurant. This has been implemen
 
 # clone into repository
 
-$ git clone https://github.com/dmauyl/fiction-restaurant.git
+$ git clone https://github.com/modongo/fiction-restaurant.git
 
 # Open using your favorite editor and view the code or just open the index.html on the browser
 ```
@@ -47,11 +47,11 @@ Incase of any issues or feedback please add using any of below links.
 
 ## Support and contact details
 
- Contact me on +254729379639 or on my github account <https://github.com/dmauyl>
+ Contact me on +254729379639 or on my github account <https://github.com/modongo>
 
 ### live site link
 
-<https://dmauyl.github.io/fiction-restaurant/>
+<https://modongo.github.io/fiction-restaurant/>
 
 ### license
 
