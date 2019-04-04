@@ -1,9 +1,0 @@
-h1 {
-    color: red;
-    font-style: italic;
-  }
-  @media (max-width: 767px) {
-    .navbar-brand .visible-xs {
-        display: inherit; /* use !important if necessary */
-    }
-}
