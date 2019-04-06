@@ -235,7 +235,8 @@ body {
      padding: 20px;
      background-color: #9a9292 ;
      text-align: center;
-     width: 320px;
+     width: 105%;
+     height: 50%;
    }
    
    #party{
@@ -243,7 +244,8 @@ body {
      background-color:#F15A29 ;
      color: #FFFFFF ;
      text-align: center;
-     width: 315px;
+     width: 105%;
+     height: 50%;
     }
    #lunch:hover .overlay-row{
      opacity: 3;

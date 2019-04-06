@@ -1,183 +1,213 @@
 <!Doctype html>
 <html>
-
 <head>
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-  <link href="css/styles.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  <title>Fictional Kitchen</title>
-</head>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <title>Fictional Kitchen</title>
+</head>
 <body>
-        <div class="col-md-12 media">
-                <div class="col-md-12 overlay">
-                    <div class="men">
-                        <div id="myNav" class="overlayMenu">
-                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                          <div class="overlay-content">
-                            <a href="#">Contacts</a>
-                            <a href="#">Events</a>
-                            <a href="#">Menu</a>
-                          </div>
-                        </div>
-                        <span style="font-size:50px;cursor:pointer;color:#ffffff;" onclick="openNav()">&#9776; </span>
-        
+    <!-- <div class="container-fluid"> -->
+
+    <div class="col-md-12 media">
+        <div class="col-md-12 overlay">
+            <div class="men">
+                <div id="myNav" class="overlayMenu">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="#">Contacts</a>
+                        <a href="#">Events</a>
+                        <a href="#">Menu</a>
                     </div>
-                    <p class="logo"><img src="images/logoBig.png"  class="img-responsive" style="display:inline" alt="Dinner" width="400" height="400"></p>
-                    <h1 class="header">We Provide The Best Food<br/> At The <b>Right Price</b></h1>
+                </div>
+                <span style="font-size:50px;cursor:pointer;color:#ffffff;" onclick="openNav()">&#9776; </span>
+
+            </div>
+            <p class="logo"><img src="images/logoBig.png" class="img-responsive" style="display:inline" alt="Dinner"
+                    width="400" height="400"></p>
+            <h1 class="header">We Provide The Best Food<br /> At The <b>Right Price</b></h1>
+        </div>
+    </div>
+    <!-- section top food -->
+    <div class="row">
+        <div class="col-lg-3">
+            <div id="happy">
+                <h2>Happy Hour</h2>
+            </div>
+            <div id="party">
+                <h2>Party Time</h2>
+            </div>
+        </div>
+        <!-- column 2 -->
+        <div class="col-lg-3" id="breakfast">
+            <div class="overlay-row">
+                <h2 class="text">breakfast</h2>
+            </div>
+        </div>
+        <!-- column 3 -->
+        <div class="col-lg-3" id="lunch">
+            <div class="overlay-row">
+                <h2 class="text">lunch</h2>
+            </div>
+        </div>
+        <!-- dinner -->
+        <div class="col-lg-3" id="dinner">
+            <div class="overlay-row">
+                <h2 class="text">dinner</h2>
+            </div>
+
+        </div>
+    </div>
+    <!--End of topfood section  -->
+
+    <!--start of paragraph with photo  -->
+    <div class="row">
+        <div class="col-md-6 bg-1">
+            <div class="fast">
+                <img src="images/fastFood1.jpg" class="img-responsive" style="display:inline">
+                <img src="images/fastFood2.jpg" class="img-responsive" style="display:inline">
+            </div>
+        </div>
+        <div class="col-md-6 bg-1">
+            <div class="Paragraph1">
+                <h2>Fast Food</h2>
+                <p>
+                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem autem omnis consequatur eligendi ratione quis deleniti id magnam asperiores ipsum itaque neque, enim, animi rem quae ullam, blanditiis eius officiis!
+                   Velit, assumenda laborum repellat ducimus nemo sequi vero iste voluptatem, minima temporibus dolore harum rem voluptatibus, recusandae quibusdam deleniti saepe vitae laudantium. Nostrum id odit dicta facilis! Quam, itaque eveniet!
+                   Voluptatum nam quisquam quis, voluptatem dignissimos harum impedit dolor eum omnis odio. Quisquam quasi corporis aliquid minus fuga praesentium, porro iure velit, natus et exercitationem non laudantium adipisci accusamus quaerat?
+                   Laboriosam facilis esse voluptates cumque autem, ducimus eum, mollitia maxime dolorum similique pariatur explicabo cum placeat vel aperiam, dolorem ea quidem? Magni facilis eligendi voluptatibus qui aspernatur, praesentium neque facere.
+                </p>
+                <br>
+                <div id="view-gallery">
+                    <a href="#" class="btn btn-default" type="button" id="view"><strong>View Gallery</strong> <i
+                            class="fa fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
             </div>
-  <!-- section top food -->
-  <div class="row">
-      <div class="col-lg-3">
-        <div id="happy">
-          <h2>Happy Hour</h2>
         </div>
-        <div id="party">
-          <h2>Party Time</h2>
-        </div>
-      </div>
-      <!-- column 2 -->
-      <div class="col-lg-3" id="breakfast">
-        <div class="overlay-row">
-          <h2 class="text">breakfast</h2>
-        </div>
-      </div>
-      <!-- column 3 -->
-      <div class="col-lg-3" id="lunch">
-        <div class="overlay-row">
-          <h2 class="text">lunch</h2>
-        </div>
-      </div>
-      <!-- dinner -->
-      <div class="col-lg-3" id="dinner">
-        <div class="overlay-row">
-          <h2 class="text">dinner</h2>
-        </div>
-      
     </div>
-  </div>
-  <!--End of topfood section  -->
-
-  <!--start of paragraph with photo  -->
-  <div class="row">
-    <div class="col-md-6 bg-1">
-      <div class="fast">
-        <img src="images/fastFood1.jpg" class="img-responsive" style="display:inline">
-        <img src="images/fastFood2.jpg" class="img-responsive" style="display:inline">
-      </div>
-    </div>
-    <div class="col-md-6 bg-1">
-      <div class="Paragraph1">
-        <h2>Fast Food</h2>
-        <p>
-        "Ethnic food" is a phrase most of us have heard, possibly even recently. But what does it mean, specifically? If "ethnic" means to come from a certain national or cultural tradition, then literally all food would be ethnic food. But Tara O'Brady, the award-winning cookbook author, food writer, and proprietor of the popular blog
-        </p>
-        <br>
-        <div id="view-gallery">
-          <a href="#" class="btn btn-default" type="button" id="view"><strong>View Gallery</strong> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6 bg-1">
-      <div class="Paragraph2">
-        <h2>Fast Food</h2>
-        <p>
-        "Ethnic food" is a phrase most of us have heard, possibly even recently. But what does it mean, specifically? If "ethnic" means to come from a certain national or cultural tradition, then literally all food would be ethnic food. But Tara O'Brady, the award-winning cookbook author, food writer, and proprietor of the popular blog
-        </p>
-        <br>
-        <div id="view-gallery">
-          <a href="#" class="btn btn-default" type="button" id="view"><strong>View Gallery</strong> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6 bg-1">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="faster">
-            <div class="col-md-6 bg-10">
-              <img src="images/drink1.jpg" class="img-responsive" style="display:inline-block">
-            </div>
-            <div class="col-md-6 bg-10">
-              <img src="images/drink2.jpg" class="img-responsive" style="display:inline-block">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End of paragraph with photo-->
-
-  <div class="col-md-12 bgFoods">
-    <div class="foods">
-      <div class="foodsHead">
-        <div id="burger">
-          <img src="images/fastfood/beefBurger.jpg" class="img-responsive" style="display:inline" alt="Dinner">
-          <img src="images/fastfood/chickenBurger.jpg" class="img-responsive" style="display:inline" alt="Dinner">
-          <img src="images/fastfood/chickenPizza.jpg" class="img-responsive" style="display:inline" alt="Dinner">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- start of customer and about  -->
-  <div class="container-fluid">
     <div class="row">
-      
-        
-          <div class="col-md-8 bg-1">
-            <div id="article">
-              <h2 id="articleh2">Our Happy Customers</h2>
-              <h3>George Richard</h3>
-              <p>Data Structures are the programmatic way of storing data so that data can be used efficiently. Almost every enterprise application uses various types of data structures in one or the other way.</p>
-              <span style="font-size:30px;color:#F15A29;"> &#8249; </span>
-              <img src="images/customers/p1.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
-              <img src="images/customers/p2.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
-              <img src="images/customers/p3.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
-              <span style="font-size:30px;color:#F15A29;"> &#8250;</span>
+        <div class="col-md-6 bg-1">
+            <div class="Paragraph2">
+                <h2>Fast Food</h2>
+                <p>
+                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit qui ipsum eveniet expedita ducimus excepturi deleniti non autem praesentium error. Laboriosam debitis accusamus voluptatem molestias, quibusdam magnam maiores dignissimos nulla?
+                   Illo, quas! Soluta quisquam et maxime possimus dolores ipsam exercitationem earum, nobis sint reiciendis esse similique modi quas molestiae recusandae dolorum fuga accusantium accusamus repellat ratione sapiente! Blanditiis, accusamus dolores.
+                   Non facilis ipsam placeat dignissimos aspernatur possimus incidunt rem necessitatibus sit doloribus ipsum numquam aliquam fuga est, iusto quod aperiam iure dolores alias. Enim aut nostrum ipsam dolorem aliquam numquam?
+                   Laudantium adipisci impedit delectus eligendi? Harum, neque voluptatum molestias rem dolorem sequi quidem possimus nihil fuga earum unde quod ipsam nesciunt quaerat sunt dolore adipisci repellat, ullam quam, nulla facilis?
+                   Culpa, explicabo? Tempora necessitatibus atque laudantium nihil dicta quasi non accusantium ex aut, labore quibusdam quas vero, nesciunt, obcaecati quam aperiam esse ad. Amet nesciunt ipsa obcaecati, laudantium est eum.
+                </p>
+                <br>
+                <div id="view-gallery">
+                    <a href="#" class="btn btn-default" type="button" id="view"><strong>View Gallery</strong> <i
+                            class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
             </div>
-          </div>
-          <div class="col-md-4 bg-1">
-            <div id="article">
-              <h2 id="articleh2">About Menu</h2>
-              <p>"Ethnic food" is a phrase most of us have heard, possibly even recently. But what does it mean, specifically? If "ethnic" means to come from a certain national or cultural tradition, then literally all food would be ethnic food. But Tara O'Brady, the award-winning cookbook author, food writer, and proprietor of the popular blog </p>
-            
-          
         </div>
-      </div>
+        <div class="col-md-6 bg-1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="faster">
+                        <div class="col-md-6 bg-10">
+                            <img src="images/drink1.jpg" class="img-responsive" style="display:inline-block">
+                        </div>
+                        <div class="col-md-6 bg-10">
+                            <img src="images/drink2.jpg" class="img-responsive" style="display:inline-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <!--end of Customer and about sections  -->
+    <!-- End of paragraph with photo-->
 
-  <div class="col-md-12 bgMail">
-      <br>
-      <br>
-      <br>
-    <h1 class="mailText">Get our daily food items delivered to your email</h1>
-    <div class="mail">
-      <form id="email" action="#">
-        <input type="email" name="email" class="formStyle" placeholder="Your Email">
-        <button type="submit"  class="btn btn-primary" form="email" value="Submit">Submit</button>
-      </form>
+    <div class="col-md-12 bgFoods">
+        <div class="foods">
+            <div class="foodsHead">
+                <div id="burger">
+                    <img src="images/fastfood/beefBurger.jpg" class="img-responsive" style="display:inline"
+                        alt="Dinner">
+                    <img src="images/fastfood/chickenBurger.jpg" class="img-responsive" style="display:inline"
+                        alt="Dinner">
+                    <img src="images/fastfood/chickenPizza.jpg" class="img-responsive" style="display:inline"
+                        alt="Dinner">
+                </div>
+            </div>
         </div>
-  </div>
+    </div>
 
-  <div class="col-md-12 footer">
-    <div class="social">
-        <br><br>
-      <h1 style="color:#ffffff;"><img src="images/footerlogos/logo_white.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height=""> MENU</h1>
-      <br><h3>Thats What We Are</h3><br/>
-      <i class="fa fa-facebook" style="font-size:24px"></i>
-      <i style="font-size:24px" class="fa">&#xf081;</i>
-      <i style="font-size:24px" class="fa">&#xf231;</i>
-      <br/><br/><br/>
-      <h4>2016 Menu Restaurant</4>
-      </div>
+    <!-- start of customer and about  -->
+    <div class="container-fluid">
+        <div class="row">
+
+
+            <div class="col-md-8 bg-1">
+                <div id="article">
+                    <h2 id="articleh2">Our Happy Customers</h2>
+                    <h3>George Richard</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iste perspiciatis odit ipsum ducimus rem adipisci eos, impedit placeat atque similique corporis doloribus architecto nam laborum eaque quia eligendi facere.
+                    Doloremque eaque aliquid incidunt eius ducimus ut? Tempora, perspiciatis harum! Nihil saepe corporis facere, dolore cupiditate nobis, culpa sequi maiores illum amet nulla aut, sed voluptatem temporibus eaque repudiandae dolores.
+                    Quas totam sint dolor quo quam, mollitia ducimus asperiores minima! Provident, necessitatibus similique amet quae asperiores nihil nesciunt vitae corrupti ducimus, possimus ratione veniam aperiam laborum beatae, aliquid eligendi at!
+                    Libero harum accusantium alias expedita dolorem necessitatibus at recusandae eveniet deleniti quia? Vel dolore deserunt voluptatum natus. Cumque, neque amet sapiente, debitis nobis optio sunt officiis quasi adipisci, molestiae consectetur.</p>
+                    <span style="font-size:30px;color:#F15A29;"> &#8249; </span>
+                    <img src="images/customers/p1.png" class="img-responsive" style="display:inline" alt="fastfood"
+                        width="" height="">
+                    <img src="images/customers/p2.png" class="img-responsive" style="display:inline" alt="fastfood"
+                        width="" height="">
+                    <img src="images/customers/p3.png" class="img-responsive" style="display:inline" alt="fastfood"
+                        width="" height="">
+                    <span style="font-size:30px;color:#F15A29;"> &#8250;</span>
+                </div>
+            </div>
+            <div class="col-md-4 bg-1">
+                <div id="article">
+                    <h2 id="articleh2">About Menu</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor eaque earum laboriosam ratione obcaecati architecto dolorum eius debitis ex veniam! Magnam, fuga corporis et necessitatibus illum repellat magni repudiandae. Ipsam!
+                    Voluptates neque deserunt pariatur iste quia accusamus tempora consectetur quos. Soluta accusantium, enim dolore quia distinctio porro repellendus quidem iure, aspernatur impedit laboriosam beatae dicta mollitia tenetur vero nam pariatur!
+                    Cum incidunt vel laborum nam, nostrum ipsum dolores sequi esse fugit dolorum eum at porro odit molestiae aliquid commodi quibusdam rerum vitae iusto libero similique tempora, cupiditate hic iure. Corrupti?
+                    Sunt expedita ad maxime cumque voluptas consectetur, beatae omnis quae repellat quidem mollitia eaque totam atque nesciunt voluptatum dolor laudantium possimus qui. Blanditiis explicabo ea voluptates fuga, temporibus adipisci labore.
+                    Soluta, quisquam nulla? Facilis eaque amet totam animi, explicabo consectetur vero a in quam blanditiis eum adipisci alias tempora. Eos corporis, numquam eum harum vitae cum doloremque accusamus iusto quae.
+                    Molestias debitis illum adipisci quam similique culpa, optio blanditiis minima eveniet incidunt veniam, ducimus ipsam fugit expedita nulla praesentium eius maxime suscipit. Voluptatum veritatis repudiandae laudantium. Quam ducimus dignissimos id!
+                    Quasi explicabo pariatur, aut voluptatum quaerat quidem vitae impedit doloremque quos, nemo aliquid harum nostrum. Maiores, vitae cumque? Eveniet illum fuga omnis cum reiciendis tempora, nostrum adipisci veniam nam dignissimos.
+                    Error nostrum similique, placeat dignissimos doloremque aliquid ipsa amet voluptatibus cumque vero temporibus quidem necessitatibus dolorem sunt quisquam laborum praesentium ad adipisci molestias reiciendis ipsum consequatur aut. Vero, fugit accusantium!
+                    Exercitationem aspernatur, dolor perspiciatis quam veritatis doloremque, dolore excepturi quibusdam mollitia, eaque fuga quidem aperiam sed commodi corporis! Nihil pariatur eum laboriosam nam minima veritatis minus quaerat consequuntur non labore.
+                    Iste quaerat corporis non labore, impedit dignissimos cupiditate facilis ipsum? Ducimus, eligendi? Quasi reprehenderit quos eligendi, optio ut voluptates esse. A in officiis quam soluta quisquam vero, praesentium suscipit nobis? </p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of Customer and about sections  -->
+
+    <div class="col-md-12 bgMail">
+        <br>
+        <br>
+        <br>
+        <h1 class="mailText">Get our daily food items delivered to your email</h1>
+        <div class="mail">
+            <form id="email" action="#">
+                <input type="email" name="email" class="formStyle" placeholder="Your Email">
+                <button type="submit" class="btn btn-primary" form="email" value="Submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-md-12 footer">
+        <div class="social">
+            <br><br>
+            <h1 style="color:#ffffff;"><img src="images/footerlogos/logo_white.png" class="img-responsive"
+                    style="display:inline" alt="fastfood" width="" height=""> MENU</h1>
+            <br>
+            <h3>Thats What We Are</h3><br />
+            <i class="fa fa-facebook" style="font-size:24px"></i>
+            <i style="font-size:24px" class="fa">&#xf081;</i>
+            <i style="font-size:24px" class="fa">&#xf231;</i>
+            <br /><br /><br />
+            <h4>2016 Menu Restaurant</4>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -185,5 +215,7 @@
     <script type="text/javascript" src="scripts/javascript.js">
 
     </script>
+    <!-- </div> -->
+ </body>   
 
 </html>
